@@ -1,0 +1,12 @@
+{
+  "name": "sprs",
+  "version": "1.0.0",
+  "description": "-process 进程\r node main.js\r js 语言可以在后端运行\r 只有后端才有process 属于操作系统 启动了一个进程\r 前段 浏览器",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
