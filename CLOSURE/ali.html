@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul li {
+      list-style: none;
+      font-size: 50px;
+    }
+
+    li:nth-child(n) {
+      background-color: aqua;
+    }
+
+    li:nth-child(2n) {
+      background-color: red;
+    }
+  </style> -->
+</head>
+
+<body>
+  <ul>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+    <li>a</li>
+  </ul>
+  <script>
+    var arr = document.querySelectorAll('li')
+    // console.log(arr)
+    for (var i = 0; i < arr.length; i++) {
+      // arr[i].addEventListener('click', function(){
+      // console.log(i)
+      //})
+      (function (j) {
+        arr[j].addEventListener('click', function () {
+          console.log(j)
+        })
+      })(i)
+    }
+  </script>
+</body>
+
+</html>
