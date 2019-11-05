@@ -74,7 +74,7 @@ methods:{
     line-height 14px
     &.current
         position relative
-        z-index 10
+        z-index 9
         margin-top -1px
         background #ffffff
         font-size 700
