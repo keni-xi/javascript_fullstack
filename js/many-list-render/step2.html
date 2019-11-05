@@ -12,7 +12,7 @@
     <ul id="container"></ul>
     <script>
         const ul = document.getElementById('container');
-        let total = 100000;
+        let total = 1000;
         let once = 20;
         let index = 0;
         loop(total, index);
@@ -23,7 +23,7 @@
             setTimeout(()=>{
                 for (let i = 0; i < once; i++) {
                 const liNode = document.createElement('li');
-                liNode.innerText = Math.random() * 100000;
+                liNode.innerText = Math.random() * 1000;
                 ul.appendChild(liNode);
                 }
                 loop(total-once);
